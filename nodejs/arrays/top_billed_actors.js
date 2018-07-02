@@ -1,0 +1,11 @@
+const movies = require('./movies.json')
+const _ = require('lodash')
+
+console.log('Print top-billed actors names')
+const actorsList = _(movies)
+  .map(movie => movie.Actors.match(/[^,]+/g))
+  .flatten()
+  .uniq()
+  .sort()
+  .value()
+actorsList.forEach(actor => console.log(actor))
