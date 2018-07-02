@@ -1,0 +1,25 @@
+{
+  "name": "beginner-node-projects",
+  "version": "1.0.0",
+  "description": "Practical tasks and demo projects suitable for beginners to learn NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AK4848/beginner-node-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AK4848/beginner-node-projects/issues"
+  },
+  "homepage": "https://github.com/AK4848/beginner-node-projects#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "lodash": "^4.17.10",
+    "minimist": "^1.2.0",
+    "moment": "^2.22.2"
+  }
+}
